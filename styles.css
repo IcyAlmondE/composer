@@ -15,7 +15,7 @@ body{
     height: 256px;
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 594px){
     .name{
         margin-block-start: 0px;
         margin-block-end: 0px;
@@ -31,7 +31,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 594px){
     .name{
         margin-block-start: 0px;
         margin-block-end: 0px;
