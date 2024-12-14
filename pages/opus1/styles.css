@@ -82,6 +82,12 @@ a{
     border-color: transparent;
 }
 
+@media only screen and (max-width: 500px){
+    [class*='release-box']{
+        font-size: 0.75vw;
+    }
+}
+
 .release-box-yt:hover{
     background-color: red;
     color: white;

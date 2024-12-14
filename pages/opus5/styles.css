@@ -75,6 +75,12 @@ a{
     font-size: 1.25vw;
 }
 
+@media only screen and (max-width: 500px){
+    [class*='release-box']{
+        font-size: 0.75vw;
+    }
+}
+
 .release-box-stf:hover{
     background-color: #1db954;
     color: black;
