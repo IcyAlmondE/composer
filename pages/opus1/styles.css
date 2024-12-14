@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Noto sans';
+    background-color: #b5e1f7;
+    color: #01068a;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.rtn{
+    font-size: 1.5vw;
+}
+
+.alb{
+    height: 20vw;
+    align-items: left;
+    
+}
+
+.alb-head{
+    font-size: 8vw;
+    font-weight: 700;
+}
