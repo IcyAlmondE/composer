@@ -62,16 +62,22 @@ body{
     padding: 4px;
 }
 
-.ver_space{
+.ver-space{
     margin-block-start: 16px;
     margin-block-end: 16px;
+}
+
+.hor-space{
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .release-box{
     display: flex;
     border-radius: 2rem;
     background-color: white;
-    height: 12vw;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .release-box:hover{
@@ -79,23 +85,37 @@ body{
     box-shadow: 2rem;
 }
 
-@media only screen and (min-width: 992px){
-    .col-div-3{
-        columns: 3;
-        display: block;
-    }
-    .release-box{height: 12vw;}
+.cent{justify-content: center;}
 
+@media only screen and (min-width: 992px){
+    .col-div-3{display: flex;}
+    .release-box{
+        height: 12vw;
+        width: 33%;
+    }
     .col-div-2{display: none;}
+    .col-no{display: none;}
 }
 
-@media only screen and (min-width: 600px) and (max-width:992px){
-    .col-div-2{
-        columns: 2;
-        display: block;
+@media only screen and (min-width: 500px) and (max-width:992px){
+    .col-div-2{display: flex;}
+    .release-box{
+        height: 16vw;
+        width: 50%;
     }
-    .release-box{height: 16vw;}
-
     .col-div-3{display: none;}
+    .col-no{display: none;}
+}
+
+@media only screen and (max-width: 500px){
+    .col-no{display: block;}
+    .release-box{
+        height: 32vw;
+        width: 100%;
+        margin-block-start: 16px;
+        margin-block-end: 16px;
+    }
+    .col-div-3{display: none;}
+    .col-div-2{display: none;}
 }
 
