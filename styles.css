@@ -3,9 +3,6 @@
 body{
     font-family: 'Noto sans';
     background-color: #b5e1f7;
-}
-
-.header{
     text-align: center;
     color: #01068a;
 }
@@ -29,6 +26,11 @@ body{
         font-size: 1.5rem;
         font-weight: 400;
     }
+
+    .sec-head{
+        font-size: 2rem;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (max-width: 594px){
@@ -45,6 +47,11 @@ body{
         font-size: 4vw;
         font-weight: 400;
     }
+
+    .sec-head{
+        font-size: 5vw;
+        font-weight: 600;
+    }
 }
 
 .logo{
@@ -56,6 +63,39 @@ body{
 }
 
 .ver_space{
-    margin-block-start: 12px;
-    margin-block-end: 12px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
+
+.release-box{
+    display: flex;
+    border-radius: 2rem;
+    background-color: white;
+    height: 12vw;
+}
+
+.release-box:hover{
+    background-color: #f4fcff;
+    box-shadow: 2rem;
+}
+
+@media only screen and (min-width: 992px){
+    .col-div-3{
+        columns: 3;
+        display: block;
+    }
+    .release-box{height: 12vw;}
+
+    .col-div-2{display: none;}
+}
+
+@media only screen and (min-width: 600px) and (max-width:992px){
+    .col-div-2{
+        columns: 2;
+        display: block;
+    }
+    .release-box{height: 16vw;}
+
+    .col-div-3{display: none;}
+}
+
