@@ -123,6 +123,12 @@ a{
     font-weight: 300;
 }
 
+.rel-woo{
+    margin-block-end: 0px;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
 .al-l{
     text-align: left;
 }
@@ -154,6 +160,7 @@ a{
     .rel-head{font-size: 3vw;}
     .rel-txt{font-size: 2vw;}
     .rel-subtxt{font-size: 1.5vw;}
+    .rel-woo{font-size: 3vw;}
 }
 
 @media only screen and (max-width: 500px){
@@ -176,5 +183,6 @@ a{
         margin-block-start: 1.25vw;
     }
     .marg-1{margin-right: 2vw;}
+    .rel-woo{font-size: 5.5vw;}
 }
 
