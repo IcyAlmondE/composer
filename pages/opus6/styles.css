@@ -3,6 +3,100 @@
 body{
     font-family: 'Noto sans';
     background-color: #b5e1f7;
-    text-align: center;
     color: #01068a;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    display: flex;
+}
+
+.rtn{
+    font-size: 1.5vw;
+    margin-block-start: 2vw;
+    margin-block-end: 2vw;
+}
+
+.rtn:hover{
+    text-decoration: underline;
+}
+
+.alb{
+    height: 25vw;
+    align-items: left;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+
+.alb-head{
+    font-size: 5vw;
+    font-weight: 700;
+    margin-block-start: 0.25vw;
+    margin-block-end: 0.5vw;
+}
+
+.alb-name{
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-block-start: 1.5vw;
+    margin-block-end: 0px;
+}
+
+.alb-sub{
+    font-size: 1.75vw;
+    font-weight: 300;
+    font-style: italic;
+    margin-block-start: 1vw;
+}
+
+[class*='release-box']{
+    display: flex;
+    border-radius: 1vw;
+    background-color: transparent;
+    border: #01068a;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 33%;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25vw;
+}
+
+.release-box-stf:hover{
+    background-color: #1db954;
+    color: black;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.release-box-yt:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.release-box-apm:hover{
+    background-color: #f45f69;
+    color: white;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.links{
+    display: flex;
+    margin-top: 7.5vw;
 }

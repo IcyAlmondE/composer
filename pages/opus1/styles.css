@@ -72,6 +72,7 @@ a{
     height: 3vw;
     justify-content: center;
     align-items: center;
+    font-size: 1.25vw;
 }
 
 .release-box-stf:hover{
