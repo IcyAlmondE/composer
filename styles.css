@@ -186,3 +186,22 @@ a{
     .rel-woo{font-size: 5.5vw;}
 }
 
+.text-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25vw;
+}
+
+@media only screen and (min-width: 1500px){
+    .text-container{
+        max-width: 1200px;
+        font-size: 18.75px;
+    }
+}
+
+.yap{
+    text-align: justify;
+    text-indent: 3vw;
+}
