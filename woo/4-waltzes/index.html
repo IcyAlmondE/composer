@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>4 Waltzes</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="./script.js"></script>
     </head>
 
     <body>
@@ -33,10 +34,10 @@
             <div class="text-container">
                 <div class="list-container">
                     <ol class="piece-list">
-                        <li>Waltz in E major, "Christmas Eve Waltz", C.55 (December 2022)</li>
-                        <li>Waltz in G-flat major, "Lemon Tea Waltz", C.70 (July 2023)</li>
-                        <li>Waltz in F-sharp major, "Daydream Waltz", C.75 (September 2023)</li>
-                        <li>Waltz in F major, "Sunflower Waltz", C.80 (February 2024)</li>
+                        <li onclick="scrollToTopic('christmas')">Waltz in E major, "Christmas Eve Waltz", C.55 (December 2022)</li>
+                        <li onclick="scrollToTopic('lemon-tea')">Waltz in G-flat major, "Lemon Tea Waltz", C.70 (July 2023)</li>
+                        <li onclick="scrollToTopic('daydream')">Waltz in F-sharp major, "Daydream Waltz", C.75 (September 2023)</li>
+                        <li onclick="scrollToTopic('sunflower')">Waltz in F major, "Sunflower Waltz", C.80 (February 2024)</li>
                     </ol>
                 </div>
                 <div class="yap">
@@ -45,7 +46,7 @@
                 <hr class="ver-space" width="100%" color="#282db8">
 
                 <div>
-                    <h1 class="sec-head">Christmas Eve Waltz</h1>
+                    <h1 id="christmas" class="sec-head">Christmas Eve Waltz</h1>
                     <p class="sec-sub">"On Christmas Eve, alone in the quiet dorm..."</p>
                     <img style="width: 100%;" src="../../images/c55.png">
                     <div class="yap">
@@ -57,21 +58,21 @@
                 <hr class="ver-space" width="100%" color="#282db8">
 
                 <div>
-                    <h1 class="sec-head">Lemon Tea Waltz</h1>
+                    <h1 id="lemon-tea" class="sec-head">Lemon Tea Waltz</h1>
                     <p class="sec-sub">"Lemon tea is indeed a nice drink."</p>
                     <img style="width: 100%;" src="../../images/c70.png">
                 </div>
                 <hr class="ver-space" width="100%" color="#282db8">
 
                 <div>
-                    <h1 class="sec-head">Daydream Waltz</h1>
+                    <h1 id="daydream" class="sec-head">Daydream Waltz</h1>
                     <p class="sec-sub">"Sleepily at the piano"</p>
                     <img style="width: 100%;" src="../../images/c75.png">
                 </div>
                 <hr class="ver-space" width="100%" color="#282db8">
 
                 <div>
-                    <h1 class="sec-head">Sunflower Waltz</h1>
+                    <h1 id="sunflower" class="sec-head">Sunflower Waltz</h1>
                     <p class="sec-sub">"The balcony, a sunflower, and the final days towards the end..."</p>
                     <img style="width: 100%;" src="../../images/c80.png">
                 </div>
