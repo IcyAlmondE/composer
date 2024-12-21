@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Noto sans';
+    background-color: #b5e1f7;
+    color: #01068a;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    display: flex;
+}
+
+.rtn{
+    font-size: 1.5vw;
+    margin-block-start: 2vw;
+    margin-block-end: 2vw;
+}
+
+.rtn:hover{
+    text-decoration: underline;
+}
+
+.alb{
+    height: 25vw;
+    align-items: left;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+
+.alb-head{
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin-block-start: 0.25vw;
+    margin-block-end: 0.5vw;
+}
+
+.space-name{
+    height: 1.25vw;
+    margin-block-start: 1.5vw;
+    margin-block-end: 0px;
+}
+
+.alb-name{
+    font-size: 3vw;
+    font-weight: 400;
+    margin-block-start: 1.5vw;
+    margin-block-end: 0px;
+}
+
+.alb-sub{
+    font-size: 1.75vw;
+    font-weight: 300;
+    font-style: italic;
+    margin-block-start: 1vw;
+}
+
+[class*='release-box']{
+    display: flex;
+    border-radius: 1vw;
+    background-color: transparent;
+    border: #01068a;
+    border-width: 0.125vw;
+    border-style: solid;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 50%;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25vw;
+}
+
+.release-box-stf:hover{
+    background-color: #1db954;
+    color: black;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.release-box-yt:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.release-box-apm:hover{
+    background-color: #f45f69;
+    color: white;
+    box-shadow: 2rem;
+    border-color: transparent;
+}
+
+.links{
+    display: flex;
+    margin-top: 6.5vw;
+}
+
+@media only screen and (min-width: 594px){
+    .sec-head{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 594px){
+    .sec-head{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+}
+
+.text-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25vw;
+}
+
+@media only screen and (min-width: 1500px){
+    .text-container{
+        max-width: 1200px;
+        font-size: 18.75px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .text-container{
+        font-size: 13.5px;
+    }
+}
+
+.yap{
+    text-align: justify;
+    text-indent: 3vw;
+}
