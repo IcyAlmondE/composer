@@ -1,32 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Opus 6</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opus 6</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="./script.js"></script>
+</head>
 
-    <body>
-        <div>
-            <div class="rtn">
-                <a href="../../">Discography</a>
-            </div>
-            <div class="header">
-                <span>
-                    <img class="alb" src="../../images/opus6.jpg">
-                </span>
-                <span style="width: 100%;">
-                    <h1 class="alb-head">Opus 6</h1>
-                    <p class="alb-name">rEminiScenCe</p>
-                    <p class="alb-sub">2022-2024</p>
-                    <div class="links">
-                        <a class="release-box-stf" href="https://open.spotify.com/track/4PTG3Z6ehGkBFwjybzWkR8">Play on Spotify</a>
-                        <a class="release-box-yt" href="https://youtu.be/dQw4w9WgXcQ">Play on Youtube</a>
-                        <a class="release-box-apm" href="https://music.apple.com/us/album/never-gonna-give-you-up/1559885420">Play on Apple Music</a>
-                    </div>
-                </span>
-            </div>
+<body>
+    <div id="return">
+        <div class="rtn">
+            <a href="../../">Discography</a>
         </div>
-    </body>
+        <div class="header">
+            <span>
+                <img class="alb" src="../../images/opus6.jpg">
+            </span>
+            <span style="width: 100%;">
+                <h1 class="alb-head">Opus 6</h1>
+                <p class="alb-name">rEminiScenCe</p>
+                <p class="alb-sub">2022-2024</p>
+                <div class="links">
+                    <a class="release-box-stf" href="https://open.spotify.com/track/4PTG3Z6ehGkBFwjybzWkR8">Play on Spotify</a>
+                    <a class="release-box-yt" href="https://youtu.be/dQw4w9WgXcQ">Play on Youtube</a>
+                    <a class="release-box-apm" href="https://music.apple.com/us/album/never-gonna-give-you-up/1559885420">Play on Apple Music</a>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <div>
+        <div class="text-container">
+            <div class="list-container">
+                <ol class="piece-list">
+                    <li onclick="scrollToTopic('prelude')">Prelude in C major for piano, C.38/94a (June 2022)</li>
+                    <li onclick="scrollToTopic('scherzo')">Scherzo in G major for orchestra, "Morning Scherzo", C.79 (December 2023)</li>
+                    <li onclick="scrollToTopic('march')">March in B-flat major for orchestra, "March for Kebtang", C.76 (October 2023)</li>
+                    <li onclick="scrollToTopic('waltz')">Waltz in E-flat major for orchestra, "Departure Waltz", C.58/96b (February 2023)</li>
+                    <li onclick="scrollToTopic('impromptu')">Impromptu in D major for piano, "Monday Rain", C.67 (July 2023)</li>
+                    <li onclick="scrollToTopic('field')">"In Field" in A major for piano and orchestra, C.65 (June 2023)</li>
+                    <li onclick="scrollToTopic('concerto')">"Mahon Concerto" in E major for piano and orchestra, C.60a (March 2023)</li>
+                    <li onclick="scrollToTopic('rainbow')">"Rainbow-colored Evening Sky" in A-flat major for piano and orchestra, C.40/96a (August 2022)</li>
+                </ol>
+            </div>
+            <div class="yap">
+                <p></p>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="prelude" class="sec-head">Prelude</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-c38.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="scherzo" class="sec-head">Morning Scherzo</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-c79.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="march" class="sec-head">March for Kebtang</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-c76.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="waltz" class="sec-head">Departure Waltz</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-c58.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="impromptu" class="sec-head">Monday Rain</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="field" class="sec-head">In Field</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-ch-c65.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="concerto" class="sec-head">Mahon Concerto</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <div>
+                <h1 id="rainbow" class="sec-head">Rainbow-colored Evening Sky</h1>
+                <p class="sec-sub"></p>
+                <img style="width: 100%;" src="1l-c40.PNG">
+                <div class="yap">
+
+                </div>
+            </div>
+            <hr class="ver-space" width="100%" color="#282db8">
+
+            <p style="text-align: center;" onclick="scrollToTopic('return')">Back to the top</p>
+        </div>
+    </div>
+</body>
 </html>
