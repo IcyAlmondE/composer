@@ -12,9 +12,20 @@ a{
     color: inherit;
 }
 
+.piece-list a{
+    text-decoration: underline;
+}
+
 .pfp{
     border-radius: 100%;
     height: 256px;
+}
+
+.list-head{
+    font-weight: 500;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 594px){
@@ -36,6 +47,10 @@ a{
         font-size: 2rem;
         font-weight: 600;
     }
+
+    .list-head{
+        font-size: 1.6rem;
+    }
 }
 
 @media only screen and (max-width: 594px){
@@ -56,6 +71,10 @@ a{
     .sec-head{
         font-size: 5vw;
         font-weight: 600;
+    }
+
+    .list-head{
+        font-size: 4vw;
     }
 }
 
@@ -211,3 +230,29 @@ a{
     text-align: justify;
     text-indent: 3vw;
 }
+
+.list-container{
+    text-align: left;
+    display: inline-block;
+}
+
+.piece-list{
+    display: inline-block;
+    text-align: left;
+}
+
+table {
+    width: 100%; /* Set table width to 100% of its container */
+    border-collapse: collapse; /* Merge adjacent borders */
+  }
+
+  th, td {
+    border: 1px solid #01068a; /* Add borders to table cells */
+    padding: 8px; /* Add padding inside cells */
+    text-align: left; /* Align text to the left */
+  }
+
+  th {
+    background-color: #8dd1f3; /* Add a light background to header cells */
+    font-weight: bold; /* Make header text bold */
+  }
