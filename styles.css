@@ -23,8 +23,8 @@ a{
 
 .list-head{
     font-weight: 500;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
     text-align: center;
 }
 
@@ -218,13 +218,25 @@ a{
         max-width: 1200px;
         font-size: 18.75px;
     }
+    table{
+        td{
+            font-size: 18.75px;
+        }
+    }
+        
 }
 
 @media only screen and (max-width: 1080px){
     .text-container{
         font-size: 13.5px;
     }
-}
+    table{
+        td{
+            font-size: 13.5px;
+        }
+    }
+        
+    }
 
 .yap{
     text-align: justify;
@@ -255,4 +267,8 @@ table {
   th {
     background-color: #8dd1f3; /* Add a light background to header cells */
     font-weight: bold; /* Make header text bold */
+  }
+
+  td{
+    font-size: 1.25vw;
   }
