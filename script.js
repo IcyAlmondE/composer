@@ -80,7 +80,7 @@ function createTableForYear(year) {
     "2023":[
       {"c":"57", "composition":"Piece in A major", "nickname":"Shining Morning Sky", "date":"January 2023", "note":"Op.3 No.2", "link":"./opus/opus3"},
       {"c":"58", "composition":"Waltz in F major", "nickname":"", "date":"February 2023", "note":"", "link":""},
-      {"c":"58/96b", "composition":"Waltz in E-flat major", "nickname":"Departure Waltz", "date":"November 2024", "note":"Op.6 No.4", "link":"./opus/opus6/#waltz"},
+      {"c":"58/96b", "composition":"Waltz in E-flat major (Orchestrated)", "nickname":"Departure Waltz", "date":"November 2024", "note":"Op.6 No.4", "link":"./opus/opus6/#waltz"},
       {"c":"59", "composition":"Piece in G-sharp minor", "nickname":"Stormy Rainy Sky", "date":"March 2023", "note":"Op.3 No.4", "link":"./opus/opus3"},
       {"c":"60", "composition":"Ballade in D-flat major", "nickname":"", "date":"March 2023", "note":"Op.4", "link":"./opus/opus4"},
       {"c":"60a", "composition":"Piece in E major", "nickname":"Mahon Concerto", "date":"March 2023", "note":"Op.6 No.7", "link":"./opus/opus6/#concerto"},
