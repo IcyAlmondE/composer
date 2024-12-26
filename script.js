@@ -43,7 +43,7 @@ function createTableForYear(year) {
       {"c":"31a", "composition":"Album leaf in E major", "nickname":"", "date":"January 2022", "note":"For the left hand alone", "link":""},
       {"c":"31b", "composition":"Impromptu No.2 in E-flat minor", "nickname":"", "date":"February 2022", "note":"", "link":""},
       {"c":"31c", "composition":"Impromptu No.3 in A-flat major", "nickname":"", "date":"February 2022", "note":"", "link":""},
-      {"c":"31d", "composition":"Impromptu No.4 in", "nickname":"", "date":"February 2022", "note":"", "link":""},
+      {"c":"31d", "composition":"Impromptu No.4", "nickname":"", "date":"February 2022", "note":"", "link":""},
       {"c":"31e", "composition":"Impromptu No.5 in G-sharp minor", "nickname":"", "date":"March 2022", "note":"", "link":""},
       {"c":"32", "composition":"Piano Sonata (No.3) in G-flat major", "nickname":"", "date":"April 2022", "note":"", "link":"./opus/opus1"},
       {"c":"33", "composition":"Piece in B-flat major", "nickname":"Andantino dolce", "date":"April 2022", "note":"Op.1 No.1", "link":"./opus/opus1"},
