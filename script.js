@@ -136,13 +136,13 @@ function createTableForYear(year) {
     if (piece.link){
       tablehtml += 
       `<tr onclick="window.location.href='${piece.link}'">
-        <td>${piece.c}</td>
+        <td style="text-align:center;">${piece.c}</td>
         <td>${piece.composition}</td>`
     }
     else{
       tablehtml +=
       `<tr>
-        <td>${piece.c}</td>
+        <td style="text-align:center;">${piece.c}</td>
         <td>${piece.composition}</td>`
     }
 
