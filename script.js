@@ -130,7 +130,7 @@ function createTableForYear(year) {
       // {"c":"99", "composition":"", "nickname":"", "date":"2024", "note":"", "link":""},
     ]
   };
-  let tablehtml = '<table><thead><tr><th>C.</th><th>Composition</th><th class=\"tablecut\">Nickname</th><th>Date</th><th class=\"tablecut\">Note</th></tr></thead>';
+  let tablehtml = '<table><thead><tr><th style="text-align:center;">C.</th><th>Composition</th><th class="tablecut">Nickname</th><th>Date</th><th class="tablecut">Note</th></tr></thead>';
   tablehtml+='<tbody>';
   data[year].forEach(piece => {
     if (piece.link){
@@ -148,20 +148,20 @@ function createTableForYear(year) {
 
     if (!piece.nickname){
       tablehtml += 
-      `<td class=\"tablecut\">-</td>
+      `<td class="tablecut">-</td>
       <td>${piece.date}</td>`
     }
     else{
       tablehtml +=
-      `<td class=\"tablecut\">${piece.nickname}</td>
+      `<td class="tablecut">${piece.nickname}</td>
       <td>${piece.date}</td>`
     }
 
     if (!piece.note){
-      tablehtml += `<td class=\"tablecut\">-</td></tr>`;
+      tablehtml += `<td class="tablecut">-</td></tr>`;
     }
     else{
-      tablehtml += `<td class=\"tablecut\">${piece.note}</td></tr>`;
+      tablehtml += `<td class="tablecut">${piece.note}</td></tr>`;
     }
   });
   tablehtml+='</tbody></table>';
