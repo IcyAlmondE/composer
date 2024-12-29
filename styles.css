@@ -272,3 +272,9 @@ table {
   td{
     font-size: 1.25vw;
   }
+
+@media only screen and (max-width: 548px) {
+    .tablecut{
+        display: none;
+    }
+}

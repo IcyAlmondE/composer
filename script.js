@@ -48,7 +48,7 @@ function createTableForYear(year) {
       {"c":"32", "composition":"Piano Sonata (No.3) in G-flat major", "nickname":"", "date":"April 2022", "note":"", "link":"./opus/opus1"},
       {"c":"33", "composition":"Piece in B-flat major", "nickname":"Andantino dolce", "date":"April 2022", "note":"Op.1 No.1", "link":"./opus/opus1"},
       {"c":"34", "composition":"Piece in C major", "nickname":"Adagio ma non tanto", "date":"April 2022", "note":"Op.1 No.2", "link":"./opus/opus1"},
-      {"c":"35", "composition":"Piece in D major", "nickname":"Andante tranquillo", "date":"May 2022", "note":"Op.1 No.3", "link":""},
+      {"c":"35", "composition":"Piece in D major", "nickname":"Andante tranquillo", "date":"May 2022", "note":"Op.1 No.3", "link":"./opus/opus1"},
       {"c":"36", "composition":"Waltz in A-flat major", "nickname":"Valse brillante", "date":"May 2022", "note":"Op.2", "link":"./opus/opus2"},
       {"c":"36a", "composition":"Impromptu No.6 in C major", "nickname":"", "date":"June 2022", "note":"", "link":""},
       {"c":"37", "composition":"*Piece in F major", "nickname":"", "date":"June 2022", "note":"", "link":""},
@@ -97,8 +97,8 @@ function createTableForYear(year) {
       {"c":"70", "composition":"Waltz in G-flat major", "nickname":"Lemon Tea Waltz", "date":"July 2023", "note":"", "link":"./woo/4-waltzes/#lemon-tea"},
       {"c":"71", "composition":"*Etude in B major", "nickname":"", "date":"August 2023", "note":"", "link":""},
       {"c":"72", "composition":"*Piece in D major", "nickname":"", "date":"August 2023", "note":"", "link":""},
-      {"c":"73", "composition":"Impromptu No.17 in F major", "nickname":"", "date":"September 2023", "note":"For piano and orchestra", "link":""},
-      {"c":"74", "composition":"*Drafted Piano Concerto in G minor", "nickname":"", "date":"September 2023", "note":"", "link":""},
+      {"c":"73", "composition":"Impromptu No.17 in F major", "nickname":"", "date":"September 2023", "note":"", "link":""},
+      {"c":"74", "composition":"*Drafted Piano Concerto in G minor", "nickname":"", "date":"September 2023", "note":"For piano and orchestra", "link":""},
       {"c":"75", "composition":"Waltz in F-sharp major", "nickname":"Daydream Waltz", "date":"September 2023", "note":"", "link":"./woo/4-waltzes/#daydream"},
       {"c":"76", "composition":"March in B-flat major", "nickname":"March for Kebtang", "date":"October 2023", "note":"Op.6 No.3", "link":"./opus/opus6/#march"},
       {"c":"77", "composition":"*Fragment in G-flat major", "nickname":"", "date":"October 2023", "note":"", "link":""},
@@ -126,11 +126,11 @@ function createTableForYear(year) {
       {"c":"95", "composition":"*Fragment in B major", "nickname":"", "date":"November 2024", "note":"", "link":""},
       {"c":"96", "composition":"Impromptu No.18 in E major", "nickname":"", "date":"November 2024", "note":"", "link":""},
       {"c":"97", "composition":"Mazurka in E-flat major", "nickname":"", "date":"December 2024", "note":"", "link":""},
-      // {"c":"98", "composition":"", "nickname":"", "date":"2024", "note":"", "link":""},
+      {"c":"98", "composition":"*Polonaise in C-sharp minor", "nickname":"", "date":"December 2024", "note":"", "link":""},
       // {"c":"99", "composition":"", "nickname":"", "date":"2024", "note":"", "link":""},
     ]
   };
-  let tablehtml = '<table><thead><tr><th>C.</th><th>Composition</th><th>Nickname</th><th>Date</th><th>Note</th></tr></thead>';
+  let tablehtml = '<table><thead><tr><th>C.</th><th>Composition</th><th class=\"tablecut\">Nickname</th><th>Date</th><th class=\"tablecut\">Note</th></tr></thead>';
   tablehtml+='<tbody>';
   data[year].forEach(piece => {
     if (piece.link){
@@ -148,20 +148,20 @@ function createTableForYear(year) {
 
     if (!piece.nickname){
       tablehtml += 
-      `<td>-</td>
+      `<td class=\"tablecut\">-</td>
       <td>${piece.date}</td>`
     }
     else{
       tablehtml +=
-      `<td>${piece.nickname}</td>
+      `<td class=\"tablecut\">${piece.nickname}</td>
       <td>${piece.date}</td>`
     }
 
     if (!piece.note){
-      tablehtml += `<td>-</td></tr>`;
+      tablehtml += `<td class=\"tablecut\">-</td></tr>`;
     }
     else{
-      tablehtml += `<td>${piece.note}</td></tr>`;
+      tablehtml += `<td class=\"tablecut\">${piece.note}</td></tr>`;
     }
   });
   tablehtml+='</tbody></table>';
