@@ -127,7 +127,15 @@ function createTableForYear(year) {
       {"c":"96", "composition":"Impromptu No.18 in E major", "nickname":"", "date":"November 2024", "note":"", "link":""},
       {"c":"97", "composition":"Mazurka in E-flat major", "nickname":"", "date":"December 2024", "note":"", "link":""},
       {"c":"98", "composition":"*Polonaise in C-sharp minor", "nickname":"", "date":"December 2024", "note":"", "link":""},
-      // {"c":"99", "composition":"", "nickname":"", "date":"2024", "note":"", "link":""},
+    ],
+    "2025":[
+      {"c":"99", "composition":"*Piece in D-flat major", "nickname":"", "date":"January 2025", "note":"", "link":""},
+      {"c":"100", "composition":"*Drafted Piano Concerto in D minor", "nickname":"", "date":"January 2025", "note":"For piano and orchestra", "link":""},
+      {"c":"101", "composition":"Nocturne-Etude in G major", "nickname":"", "date":"January 2025", "note":"", "link":""},
+      {"c":"102", "composition":"*Piece in C major", "nickname":"", "date":"February 2025", "note":"", "link":""},
+      {"c":"103", "composition":"*Piece in D-flat major", "nickname":"", "date":"February 2025", "note":"", "link":""},
+      {"c":"104", "composition":"*Rondo in C major", "nickname":"", "date":"February 2025", "note":"", "link":""},
+      {"c":"105", "composition":"*Nocturne in B-flat major", "nickname":"", "date":"March 2025", "note":"", "link":""},
     ]
   };
   let tablehtml = '<table><thead><tr><th style="text-align:center;">C.</th><th>Composition</th><th class="tablecut">Nickname</th><th>Date</th><th class="tablecut">Note</th></tr></thead>';
