@@ -134,13 +134,14 @@ function createTableForYear(year) {
       {"c":"101", "composition":"Nocturne-Etude in G major", "nickname":"", "date":"January 2025", "note":"", "link":""},
       {"c":"102", "composition":"*Piece in C major", "nickname":"", "date":"February 2025", "note":"", "link":""},
       {"c":"103", "composition":"*Piece in D-flat major", "nickname":"", "date":"February 2025", "note":"", "link":""},
-      {"c":"104", "composition":"*Rondo in C major", "nickname":"", "date":"February 2025", "note":"", "link":""},
+      {"c":"104", "composition":"Rondo in C major", "nickname":"", "date":"February 2025", "note":"", "link":""},
       {"c":"105", "composition":"*Nocturne in B-flat major", "nickname":"", "date":"March 2025", "note":"", "link":""},
       {"c":"106", "composition":"*Piece in B-flat major", "nickname":"", "date":"March 2025", "note":"", "link":""},
       {"c":"107", "composition":"*Fragment in A minor", "nickname":"", "date":"March 2025", "note":"", "link":""},
       {"c":"108", "composition":"*Piece in D minor", "nickname":"Salutation of the Triple Gem", "date":"March 2025", "note":"For orchestra", "link":""},
       {"c":"109", "composition":"*Waltz in D major", "nickname":"", "date":"April 2025", "note":"", "link":""},
       {"c":"110", "composition":"*Waltz in A major", "nickname":"", "date":"April 2025", "note":"", "link":""},
+      {"c":"111", "composition":"Piece in A major", "nickname":"", "date":"May 2025", "note":"", "link":""},
     ]
   };
   let tablehtml = '<table><thead><tr><th style="text-align:center;">C.</th><th>Composition</th><th class="tablecut">Nickname</th><th>Date</th><th class="tablecut">Note</th></tr></thead>';
