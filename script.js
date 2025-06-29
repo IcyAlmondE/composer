@@ -143,7 +143,10 @@ function createTableForYear(year) {
       {"c":"110", "composition":"*Waltz in A major", "nickname":"", "date":"April 2025", "note":"", "link":""},
       {"c":"111", "composition":"Piece in A major", "nickname":"", "date":"May 2025", "note":"", "link":""},
       {"c":"112", "composition":"*Piece in D-flat major", "nickname":"", "date":"May 2025", "note":"", "link":""},
-      {"c":"113", "composition":"*Piece in E-flat major", "nickname":"", "date":"June 2025", "note":"For orchestra", "link":""},
+      {"c":"113", "composition":"Piece in E-flat major", "nickname":"", "date":"June 2025", "note":"For orchestra", "link":""},
+      {"c":"114", "composition":"*Piece in D minor", "nickname":"", "date":"June 2025", "note":"", "link":""},
+      {"c":"115", "composition":"*Fragment in F major", "nickname":"", "date":"June 2025", "note":"", "link":""},
+      {"c":"116", "composition":"*Piece in F major", "nickname":"", "date":"June 2025", "note":"For orchestra", "link":""},
     ]
   };
   let tablehtml = '<table><thead><tr><th style="text-align:center;">C.</th><th>Composition</th><th class="tablecut">Nickname</th><th>Date</th><th class="tablecut">Note</th></tr></thead>';
