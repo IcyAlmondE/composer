@@ -114,11 +114,19 @@ a{
         max-width: 1200px;
         font-size: 18.75px;
     }
+
+    .alb-intro{
+        /* font-size: 20px; */
+    }
 }
 
 @media only screen and (max-width: 1080px){
     .text-container{
         font-size: 13.5px;
+    }
+
+    .alb-intro{
+        /* font-size: 15px; */
     }
 }
 
@@ -128,11 +136,11 @@ a{
 }
 
 .alb-intro{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     text-align: justify;
     text-indent: 3vw;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .list-container{
