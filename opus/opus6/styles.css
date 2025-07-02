@@ -127,6 +127,14 @@ a{
     text-indent: 3vw;
 }
 
+.alb-intro{
+    font-size: 1.5vw;
+    text-align: justify;
+    text-indent: 3vw;
+    font-style: italic;
+    font-weight: 400;
+}
+
 .list-container{
     text-align: center;
 }
